@@ -34,13 +34,13 @@ boy.addAnimation("correndo",boyImg);
 leftBoundary=createSprite(0,0,100,800);
 
 //defina visibilidade como falsa para o limite à esquerda
-leftBoundary.visible = (false);
+leftBoundary.visible = false;
 
 //crie um limite à direita
 rightBoundary=createSprite(410,0,100,800);
 
 //defina visibilidade como falsa para o limite à direita
-rightBoundary.visible = (false);
+rightBoundary.visible = false;
 }
 
 function draw() {
